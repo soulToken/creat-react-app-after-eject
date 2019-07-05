@@ -7,7 +7,7 @@ const SvgIcon = props => {
 
   return (
     <i aria-hidden="true" className="anticon">
-      <svg className={styles["svg-class"]}>
+      <svg className="svg-class">
       <use xlinkHref={"#icon-" + iconClass} fill={fill} />
       </svg>
     </i>
